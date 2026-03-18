@@ -1,0 +1,398 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:2:1-36:12
+MERGED from [com.google.android.material:material:1.11.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/ea78ee09f40be40c0d9d3217542ef97c/transformed/material-1.11.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/458b979e4c318b4802c5cdd1b08f96c8/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/90ca4ac46bf66b8e72d98df64a296c28/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/22bdfc140fa61c9b9ce71035fa6a7bc8/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/b45f2e0a52c4126d2b0f506bc5d0e26c/transformed/jetified-viewpager2-1.1.0-beta02/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/c6b4c49ebfec4da15be2f5d1f76f9a67/transformed/recyclerview-1.3.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/67411c50b1fc409cf1d69cc1ab48dd21/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:17:1-56:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/53fd354c5e9dbeb682985db74a8cb3ef/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/8fcedf329487be72afc073b9fd809a5d/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/d4c95883fb536b04bb04fa94a51adfd6/transformed/jetified-activity-1.8.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/e335ac599cc3e424e7de06d174e5ab6e/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/6fbdbed304a021a707f509a6202a6edc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/742124986580966019ca186468aab6a5/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/187ccf8fcb7437afa2a60d933ac5b1a8/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/68f5f3c45b8e61b9ccf0e1b067171d64/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/985685f2790438ff008086e962850f31/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/4fd3dfa09d05e56e512b6fc17e1fc476/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/ae8449677d6f87015bcff30bbb7934c3/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/725fc5e47573586bade5d67eccbc352d/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/b9bfd82897db16894cff57a11e7d8821/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/a1976153366367a435e8448f15085541/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/3df8f8b5559bcec18eed9d1d93bc1da0/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/6e37aee78df723f1071c1a110c5f9867/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/f56f65fac2b646b87f347417fca890fb/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/af986c5cc8654cb21175f02d4d42708f/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/01e9bf14d5ab39c44050d6a9bf5a4f14/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/d3c718282fc4f8f6db6414b38f6905f2/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/6adccbbbcf5e12caac520b887692a2d7/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/20c8fb3ea57304812e46c73280756e7e/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/291efc8a2512a1b5ed3f32b136219473/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/df6d1573703c9fda034b7a70a4aaa104/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/993058775b3ed514f40ab30bd03b5f98/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/cb6c5599ce5bda4f00d1367aeb6f897b/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/657284703923a8a4e9143e991cbeca9b/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/3c0759829fd6d6bbfaa9069f16a88805/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/96761ea73549d71dfb868e3826e445bb/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.9.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/be5de2d978e9fa41f15c79d4b7dd0fcf/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/5c819256ae979bbec95d189d725c8fde/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/1ff2610007ecfa93515229badb0d01af/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/1091c5548dbd2d84331e8792d2362308/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/797285c550fc9552a30171bc0d96a22e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/ad471149ff3b822cb95c3ffd7b27bb52/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/e630a01d83fb1879c1bd7a1dca9ed893/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/0088d6da12b6f48fd2f34e35071014cd/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/9cc9e708c66df47eaa285359a52a8255/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/e260a6b19fdf71511bdbc27606a4bdc9/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/aa4c1927d0dd78db07c8a891d6f221c6/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/1ff9af3fe07f9cb2d8db1d4aad86b70f/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/c39fe11eb10f2de68d33683c37e588d5/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:8:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/67411c50b1fc409cf1d69cc1ab48dd21/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:22:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/67411c50b1fc409cf1d69cc1ab48dd21/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:8:22-62
+uses-feature#android.hardware.camera
+ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:9:5-85
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/67411c50b1fc409cf1d69cc1ab48dd21/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:25:5-27:36
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/67411c50b1fc409cf1d69cc1ab48dd21/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:9:58-82
+	android:name
+		ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:9:19-57
+application
+ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:11:5-34:19
+INJECTED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:11:5-34:19
+MERGED from [com.google.android.material:material:1.11.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/ea78ee09f40be40c0d9d3217542ef97c/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/ea78ee09f40be40c0d9d3217542ef97c/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/90ca4ac46bf66b8e72d98df64a296c28/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/90ca4ac46bf66b8e72d98df64a296c28/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/67411c50b1fc409cf1d69cc1ab48dd21/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:46:5-54:19
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/67411c50b1fc409cf1d69cc1ab48dd21/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:46:5-54:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/6fbdbed304a021a707f509a6202a6edc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/6fbdbed304a021a707f509a6202a6edc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/f56f65fac2b646b87f347417fca890fb/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/f56f65fac2b646b87f347417fca890fb/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/be5de2d978e9fa41f15c79d4b7dd0fcf/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/be5de2d978e9fa41f15c79d4b7dd0fcf/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/1091c5548dbd2d84331e8792d2362308/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/1091c5548dbd2d84331e8792d2362308/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/797285c550fc9552a30171bc0d96a22e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/797285c550fc9552a30171bc0d96a22e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/ad471149ff3b822cb95c3ffd7b27bb52/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/ad471149ff3b822cb95c3ffd7b27bb52/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/be5de2d978e9fa41f15c79d4b7dd0fcf/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:13:9-45
+	android:allowBackup
+		ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:16:9-40
+	android:usesCleartextTraffic
+		ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:17:9-44
+activity#com.eventmanagement.ui.LoginActivity
+ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:21:9-27:20
+	android:exported
+		ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:22:13-36
+	android:name
+		ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:21:19-51
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:23:13-26:29
+action#android.intent.action.MAIN
+ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:25:27-74
+activity#com.eventmanagement.ui.EventListActivity
+ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:29:9-85
+	android:exported
+		ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:29:58-82
+	android:name
+		ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:29:19-55
+activity#com.eventmanagement.ui.EventDetailActivity
+ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:30:9-85
+	android:exported
+		ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:30:58-82
+	android:name
+		ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:30:19-57
+activity#com.eventmanagement.ui.QRDisplayActivity
+ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:31:9-85
+	android:exported
+		ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:31:58-82
+	android:name
+		ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:31:19-55
+activity#com.eventmanagement.ui.QRScanActivity
+ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:32:9-85
+	android:exported
+		ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:32:58-82
+	android:name
+		ADDED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml:32:19-52
+uses-sdk
+INJECTED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.11.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/ea78ee09f40be40c0d9d3217542ef97c/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/ea78ee09f40be40c0d9d3217542ef97c/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/458b979e4c318b4802c5cdd1b08f96c8/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/458b979e4c318b4802c5cdd1b08f96c8/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/90ca4ac46bf66b8e72d98df64a296c28/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/90ca4ac46bf66b8e72d98df64a296c28/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/22bdfc140fa61c9b9ce71035fa6a7bc8/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/22bdfc140fa61c9b9ce71035fa6a7bc8/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/b45f2e0a52c4126d2b0f506bc5d0e26c/transformed/jetified-viewpager2-1.1.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/b45f2e0a52c4126d2b0f506bc5d0e26c/transformed/jetified-viewpager2-1.1.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/c6b4c49ebfec4da15be2f5d1f76f9a67/transformed/recyclerview-1.3.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/c6b4c49ebfec4da15be2f5d1f76f9a67/transformed/recyclerview-1.3.2/AndroidManifest.xml:20:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/67411c50b1fc409cf1d69cc1ab48dd21/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/67411c50b1fc409cf1d69cc1ab48dd21/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/53fd354c5e9dbeb682985db74a8cb3ef/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/53fd354c5e9dbeb682985db74a8cb3ef/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/8fcedf329487be72afc073b9fd809a5d/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/8fcedf329487be72afc073b9fd809a5d/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/d4c95883fb536b04bb04fa94a51adfd6/transformed/jetified-activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/d4c95883fb536b04bb04fa94a51adfd6/transformed/jetified-activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/e335ac599cc3e424e7de06d174e5ab6e/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/e335ac599cc3e424e7de06d174e5ab6e/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/6fbdbed304a021a707f509a6202a6edc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/6fbdbed304a021a707f509a6202a6edc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/742124986580966019ca186468aab6a5/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/742124986580966019ca186468aab6a5/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/187ccf8fcb7437afa2a60d933ac5b1a8/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/187ccf8fcb7437afa2a60d933ac5b1a8/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/68f5f3c45b8e61b9ccf0e1b067171d64/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/68f5f3c45b8e61b9ccf0e1b067171d64/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/985685f2790438ff008086e962850f31/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/985685f2790438ff008086e962850f31/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/4fd3dfa09d05e56e512b6fc17e1fc476/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/4fd3dfa09d05e56e512b6fc17e1fc476/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/ae8449677d6f87015bcff30bbb7934c3/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/ae8449677d6f87015bcff30bbb7934c3/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/725fc5e47573586bade5d67eccbc352d/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/725fc5e47573586bade5d67eccbc352d/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/b9bfd82897db16894cff57a11e7d8821/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/b9bfd82897db16894cff57a11e7d8821/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/a1976153366367a435e8448f15085541/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/a1976153366367a435e8448f15085541/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/3df8f8b5559bcec18eed9d1d93bc1da0/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/3df8f8b5559bcec18eed9d1d93bc1da0/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/6e37aee78df723f1071c1a110c5f9867/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/6e37aee78df723f1071c1a110c5f9867/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/f56f65fac2b646b87f347417fca890fb/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/f56f65fac2b646b87f347417fca890fb/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/af986c5cc8654cb21175f02d4d42708f/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/af986c5cc8654cb21175f02d4d42708f/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/01e9bf14d5ab39c44050d6a9bf5a4f14/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/01e9bf14d5ab39c44050d6a9bf5a4f14/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/d3c718282fc4f8f6db6414b38f6905f2/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/d3c718282fc4f8f6db6414b38f6905f2/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/6adccbbbcf5e12caac520b887692a2d7/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/6adccbbbcf5e12caac520b887692a2d7/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/20c8fb3ea57304812e46c73280756e7e/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/20c8fb3ea57304812e46c73280756e7e/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/291efc8a2512a1b5ed3f32b136219473/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/291efc8a2512a1b5ed3f32b136219473/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/df6d1573703c9fda034b7a70a4aaa104/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/df6d1573703c9fda034b7a70a4aaa104/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/993058775b3ed514f40ab30bd03b5f98/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/993058775b3ed514f40ab30bd03b5f98/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/cb6c5599ce5bda4f00d1367aeb6f897b/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/cb6c5599ce5bda4f00d1367aeb6f897b/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/657284703923a8a4e9143e991cbeca9b/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/657284703923a8a4e9143e991cbeca9b/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/3c0759829fd6d6bbfaa9069f16a88805/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/3c0759829fd6d6bbfaa9069f16a88805/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/96761ea73549d71dfb868e3826e445bb/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/96761ea73549d71dfb868e3826e445bb/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/be5de2d978e9fa41f15c79d4b7dd0fcf/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/be5de2d978e9fa41f15c79d4b7dd0fcf/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/5c819256ae979bbec95d189d725c8fde/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/5c819256ae979bbec95d189d725c8fde/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/1ff2610007ecfa93515229badb0d01af/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/1ff2610007ecfa93515229badb0d01af/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/1091c5548dbd2d84331e8792d2362308/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/1091c5548dbd2d84331e8792d2362308/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/797285c550fc9552a30171bc0d96a22e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/797285c550fc9552a30171bc0d96a22e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/ad471149ff3b822cb95c3ffd7b27bb52/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/ad471149ff3b822cb95c3ffd7b27bb52/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/e630a01d83fb1879c1bd7a1dca9ed893/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/e630a01d83fb1879c1bd7a1dca9ed893/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/0088d6da12b6f48fd2f34e35071014cd/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/0088d6da12b6f48fd2f34e35071014cd/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/9cc9e708c66df47eaa285359a52a8255/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/9cc9e708c66df47eaa285359a52a8255/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/e260a6b19fdf71511bdbc27606a4bdc9/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/e260a6b19fdf71511bdbc27606a4bdc9/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/aa4c1927d0dd78db07c8a891d6f221c6/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/aa4c1927d0dd78db07c8a891d6f221c6/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/1ff9af3fe07f9cb2d8db1d4aad86b70f/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/1ff9af3fe07f9cb2d8db1d4aad86b70f/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/c39fe11eb10f2de68d33683c37e588d5/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/c39fe11eb10f2de68d33683c37e588d5/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/zahipeleg/projects/jp_project/event-management-system/android/app/src/main/AndroidManifest.xml
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/67411c50b1fc409cf1d69cc1ab48dd21/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/67411c50b1fc409cf1d69cc1ab48dd21/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/67411c50b1fc409cf1d69cc1ab48dd21/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:29:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/67411c50b1fc409cf1d69cc1ab48dd21/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:33:5-35:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/67411c50b1fc409cf1d69cc1ab48dd21/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:35:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/67411c50b1fc409cf1d69cc1ab48dd21/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:34:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/67411c50b1fc409cf1d69cc1ab48dd21/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:36:5-38:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/67411c50b1fc409cf1d69cc1ab48dd21/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:38:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/67411c50b1fc409cf1d69cc1ab48dd21/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:37:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/67411c50b1fc409cf1d69cc1ab48dd21/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:39:5-41:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/67411c50b1fc409cf1d69cc1ab48dd21/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:41:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/67411c50b1fc409cf1d69cc1ab48dd21/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:40:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/67411c50b1fc409cf1d69cc1ab48dd21/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:42:5-44:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/67411c50b1fc409cf1d69cc1ab48dd21/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:44:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/67411c50b1fc409cf1d69cc1ab48dd21/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:43:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/67411c50b1fc409cf1d69cc1ab48dd21/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:47:9-53:63
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/67411c50b1fc409cf1d69cc1ab48dd21/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:50:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/67411c50b1fc409cf1d69cc1ab48dd21/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:49:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/67411c50b1fc409cf1d69cc1ab48dd21/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:51:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/67411c50b1fc409cf1d69cc1ab48dd21/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:53:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/67411c50b1fc409cf1d69cc1ab48dd21/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:52:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/67411c50b1fc409cf1d69cc1ab48dd21/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:48:13-74
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/6fbdbed304a021a707f509a6202a6edc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/f56f65fac2b646b87f347417fca890fb/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/f56f65fac2b646b87f347417fca890fb/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/797285c550fc9552a30171bc0d96a22e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/797285c550fc9552a30171bc0d96a22e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/ad471149ff3b822cb95c3ffd7b27bb52/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/ad471149ff3b822cb95c3ffd7b27bb52/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/6fbdbed304a021a707f509a6202a6edc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/6fbdbed304a021a707f509a6202a6edc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/6fbdbed304a021a707f509a6202a6edc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/6fbdbed304a021a707f509a6202a6edc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/6fbdbed304a021a707f509a6202a6edc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/6fbdbed304a021a707f509a6202a6edc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/6fbdbed304a021a707f509a6202a6edc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/f56f65fac2b646b87f347417fca890fb/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/f56f65fac2b646b87f347417fca890fb/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/f56f65fac2b646b87f347417fca890fb/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/be5de2d978e9fa41f15c79d4b7dd0fcf/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/be5de2d978e9fa41f15c79d4b7dd0fcf/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/be5de2d978e9fa41f15c79d4b7dd0fcf/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+permission#com.eventmanagement.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/be5de2d978e9fa41f15c79d4b7dd0fcf/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/be5de2d978e9fa41f15c79d4b7dd0fcf/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/be5de2d978e9fa41f15c79d4b7dd0fcf/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/be5de2d978e9fa41f15c79d4b7dd0fcf/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/be5de2d978e9fa41f15c79d4b7dd0fcf/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+uses-permission#com.eventmanagement.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/be5de2d978e9fa41f15c79d4b7dd0fcf/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/be5de2d978e9fa41f15c79d4b7dd0fcf/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/797285c550fc9552a30171bc0d96a22e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/797285c550fc9552a30171bc0d96a22e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/797285c550fc9552a30171bc0d96a22e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/797285c550fc9552a30171bc0d96a22e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/797285c550fc9552a30171bc0d96a22e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/797285c550fc9552a30171bc0d96a22e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/797285c550fc9552a30171bc0d96a22e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/797285c550fc9552a30171bc0d96a22e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/797285c550fc9552a30171bc0d96a22e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/797285c550fc9552a30171bc0d96a22e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/797285c550fc9552a30171bc0d96a22e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/797285c550fc9552a30171bc0d96a22e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/797285c550fc9552a30171bc0d96a22e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/797285c550fc9552a30171bc0d96a22e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/797285c550fc9552a30171bc0d96a22e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/797285c550fc9552a30171bc0d96a22e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/797285c550fc9552a30171bc0d96a22e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/797285c550fc9552a30171bc0d96a22e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/797285c550fc9552a30171bc0d96a22e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/797285c550fc9552a30171bc0d96a22e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/zahipeleg/.gradle/caches/8.11.1/transforms/797285c550fc9552a30171bc0d96a22e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92

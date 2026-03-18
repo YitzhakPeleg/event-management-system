@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Event Management System — Project Presentation</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: Arial, sans-serif;
+    background: #1a1a2e;
+    color: #eee;
+    overflow: hidden;
+  }
+
+  /* ---- Slide container ---- */
+  .slide {
+    display: none;
+    width: 100vw; height: 100vh;
+    padding: 60px 80px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .slide.active { display: flex; }
+
+  /* ---- Navigation ---- */
+  .nav {
+    position: fixed;
+    bottom: 24px; left: 50%;
+    transform: translateX(-50%);
+    display: flex; gap: 12px; align-items: center;
+    background: rgba(255,255,255,0.08);
+    padding: 8px 20px;
+    border-radius: 30px;
+  }
+
+  .nav button {
+    background: #2980b9;
+    border: none; color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer; font-size: 14px;
+  }
+
+  .nav button:hover { background: #1a6a9a; }
+  #slideCounter { font-size: 13px; color: #aaa; min-width: 60px; text-align: center; }
+
+  /* ---- Slide themes ---- */
+  .slide-1  { background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); }
+  .slide-2  { background: linear-gradient(135deg, #1a1a2e, #16213e); }
+  .slide-3  { background: linear-gradient(135deg, #0f3460, #1a1a2e); }
+  .slide-4  { background: linear-gradient(135deg, #1a1a2e, #16213e); }
+  .slide-5  { background: linear-gradient(135deg, #16213e, #0f3460); }
+  .slide-6  { background: linear-gradient(135deg, #1a1a2e, #302b63); }
+  .slide-7  { background: linear-gradient(135deg, #0f3460, #1a1a2e); }
+  .slide-8  { background: linear-gradient(135deg, #302b63, #1a1a2e); }
+  .slide-9  { background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); }
+
+  /* ---- Typography ---- */
+  h1 { font-size: 52px; font-weight: bold; line-height: 1.2; margin-bottom: 16px; }
+  h2 { font-size: 36px; color: #3498db; margin-bottom: 28px; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+  h3 { font-size: 22px; color: #2ecc71; margin-bottom: 10px; }
+  p  { font-size: 18px; line-height: 1.7; color: #ccc; }
+  .subtitle { font-size: 22px; color: #3498db; margin-bottom: 8px; }
+  .student  { font-size: 18px; color: #aaa; margin-top: 20px; }
+
+  /* ---- Cards ---- */
+  .cards {
+    display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;
+  }
+  .card {
+    background: rgba(255,255,255,0.07);
+    border-radius: 10px;
+    padding: 20px 24px;
+    flex: 1; min-width: 180px;
+    border-left: 4px solid #3498db;
+  }
+  .card.green  { border-left-color: #2ecc71; }
+  .card.orange { border-left-color: #e67e22; }
+  .card.red    { border-left-color: #e74c3c; }
+  .card.purple { border-left-color: #9b59b6; }
+
+  /* ---- Table ---- */
+  table {
+    width: 100%; border-collapse: collapse;
+    background: rgba(255,255,255,0.05);
+    border-radius: 10px; overflow: hidden;
+    margin-top: 20px;
+  }
+  th {
+    background: #2980b9;
+    padding: 12px 16px;
+    text-align: left; font-size: 15px;
+  }
+  td {
+    padding: 10px 16px;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    font-size: 15px; color: #ccc;
+  }
+  tr:last-child td { border-bottom: none; }
+
+  /* ---- ERD boxes ---- */
+  .erd {
+    display: flex; gap: 16px; flex-wrap: wrap; margin-top: 20px;
+  }
+  .erd-table {
+    background: rgba(52,152,219,0.15);
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    padding: 14px 18px;
+    min-width: 160px;
+  }
+  .erd-table .tname {
+    font-weight: bold; color: #3498db;
+    font-size: 15px; margin-bottom: 8px;
+    border-bottom: 1px solid rgba(52,152,219,0.4);
+    padding-bottom: 6px;
+  }
+  .erd-table .col { font-size: 13px; color: #aaa; margin: 2px 0; }
+  .erd-table .col.pk  { color: #f1c40f; }
+  .erd-table .col.fk  { color: #e67e22; }
+
+  /* ---- Architecture diagram ---- */
+  .arch {
+    display: flex; align-items: center; gap: 12px;
+    margin-top: 24px; flex-wrap: wrap;
+  }
+  .arch-box {
+    background: rgba(255,255,255,0.08);
+    border-radius: 8px; padding: 16px 22px;
+    text-align: center; min-width: 130px;
+    border: 2px solid #3498db;
+  }
+  .arch-box .icon { font-size: 28px; margin-bottom: 6px; }
+  .arch-box .label { font-size: 14px; color: #aaa; }
+  .arch-arrow { font-size: 28px; color: #3498db; }
+
+  /* ---- Bullet list ---- */
+  ul { list-style: none; margin-top: 16px; }
+  ul li { padding: 8px 0; font-size: 17px; color: #ccc; }
+  ul li::before { content: "▸ "; color: #3498db; font-weight: bold; }
+
+  /* ---- Badge ---- */
+  .badge {
+    display: inline-block;
+    background: #2ecc71; color: #000;
+    padding: 3px 10px; border-radius: 12px;
+    font-size: 12px; font-weight: bold; margin-left: 6px;
+  }
+  .badge.red { background: #e74c3c; color: white; }
+</style>
+</head>
+<body>
+
+<!-- ======================== SLIDE 1: Title ======================== -->
+<div class="slide slide-1 active">
+  <h1>Event & Conference<br>Management System</h1>
+  <div class="subtitle">High School CS Graduation Project — 5 Units</div>
+  <p style="margin-top:32px; font-size:17px;">
+    A full-stack data-driven system for managing events, halls, and participant registrations.<br>
+    Built with Java · MySQL · Servlets · JSP · Android
+  </p>
+  <div class="student">Student: [Your Name] &nbsp;|&nbsp; School: [School Name] &nbsp;|&nbsp; Year: 2026</div>
+</div>
+
+<!-- ======================== SLIDE 2: What is the System ======================== -->
+<div class="slide slide-2">
+  <h2>What is the System?</h2>
+  <p>A software solution for managing conferences and events end-to-end.</p>
+  <div class="cards" style="margin-top:30px;">
+    <div class="card">
+      <h3>📅 Events</h3>
+      <p>Create, edit, and delete conferences and workshops</p>
+    </div>
+    <div class="card green">
+      <h3>🏛️ Halls</h3>
+      <p>Manage venues with capacity limits — auto-blocks full events</p>
+    </div>
+    <div class="card orange">
+      <h3>👤 Participants</h3>
+      <p>Register users, store encrypted personal details</p>
+    </div>
+    <div class="card purple">
+      <h3>📱 QR Tickets</h3>
+      <p>Each registration gets a unique QR code for entrance scanning</p>
+    </div>
+  </div>
+  <p style="margin-top:28px;">
+    <strong>Two user roles:</strong>
+    &nbsp;<span class="badge">ADMIN</span> manages everything &nbsp;·&nbsp;
+    <span class="badge red">USER</span> browses and registers to events
+  </p>
+</div>
+
+<!-- ======================== SLIDE 3: Tech Stack ======================== -->
+<div class="slide slide-3">
+  <h2>Tech Stack</h2>
+  <div class="arch">
+    <div class="arch-box">
+      <div class="icon">🌐</div>
+      <strong>Web Browser</strong>
+      <div class="label">JSP + HTML/CSS/JS</div>
+    </div>
+    <div class="arch-arrow">⟷</div>
+    <div class="arch-box" style="border-color:#2ecc71;">
+      <div class="icon">☕</div>
+      <strong>Backend</strong>
+      <div class="label">Java Servlets<br>Tomcat (local)</div>
+    </div>
+    <div class="arch-arrow">⟷</div>
+    <div class="arch-box" style="border-color:#f1c40f;">
+      <div class="icon">🗄️</div>
+      <strong>Database</strong>
+      <div class="label">MySQL + JDBC</div>
+    </div>
+    <div class="arch-arrow">⟷</div>
+    <div class="arch-box" style="border-color:#e67e22;">
+      <div class="icon">📱</div>
+      <strong>Android</strong>
+      <div class="label">Java + ZXing<br>Camera (QR)</div>
+    </div>
+  </div>
+  <table style="margin-top:32px;">
+    <tr><th>Layer</th><th>Technology</th><th>Why</th></tr>
+    <tr><td>Backend</td><td>Java Servlets</td><td>Pure Java, no frameworks, easy to explain</td></tr>
+    <tr><td>Database</td><td>MySQL + JDBC</td><td>Relational, normalized, SQL queries</td></tr>
+    <tr><td>Web UI</td><td>JSP + CSS</td><td>Server-side Java rendering</td></tr>
+    <tr><td>Mobile</td><td>Native Android (Java)</td><td>Camera access for QR scanning</td></tr>
+  </table>
+</div>
+
+<!-- ======================== SLIDE 4: ERD ======================== -->
+<div class="slide slide-4">
+  <h2>Database Design (ERD)</h2>
+  <p>5 tables — fully normalized (3NF) — with foreign key constraints</p>
+  <div class="erd">
+    <div class="erd-table">
+      <div class="tname">users</div>
+      <div class="col pk">🔑 id (PK)</div>
+      <div class="col">username</div>
+      <div class="col">password_hash</div>
+      <div class="col">role (ADMIN/USER)</div>
+      <div class="col">created_at</div>
+    </div>
+    <div class="erd-table">
+      <div class="tname">halls</div>
+      <div class="col pk">🔑 id (PK)</div>
+      <div class="col">name</div>
+      <div class="col">capacity</div>
+      <div class="col">location</div>
+    </div>
+    <div class="erd-table">
+      <div class="tname">events</div>
+      <div class="col pk">🔑 id (PK)</div>
+      <div class="col">title</div>
+      <div class="col">event_date</div>
+      <div class="col">event_time</div>
+      <div class="col fk">🔗 hall_id (FK)</div>
+      <div class="col fk">🔗 created_by (FK)</div>
+    </div>
+    <div class="erd-table">
+      <div class="tname">participants</div>
+      <div class="col pk">🔑 id (PK)</div>
+      <div class="col">first_name</div>
+      <div class="col">last_name</div>
+      <div class="col" style="color:#e74c3c;">🔒 email (encrypted)</div>
+      <div class="col" style="color:#e74c3c;">🔒 phone (encrypted)</div>
+      <div class="col fk">🔗 user_id (FK)</div>
+    </div>
+    <div class="erd-table" style="border-color:#2ecc71;">
+      <div class="tname" style="color:#2ecc71;">event_registrations</div>
+      <div class="col pk">🔑 id (PK)</div>
+      <div class="col fk">🔗 event_id (FK)</div>
+      <div class="col fk">🔗 participant_id (FK)</div>
+      <div class="col">registered_at</div>
+      <div class="col">qr_code_token</div>
+    </div>
+  </div>
+  <p style="margin-top:20px; font-size:15px;">
+    🟢 Linking table: <strong>event_registrations</strong> connects events ↔ participants (many-to-many)
+  </p>
+</div>
+
+<!-- ======================== SLIDE 5: Architecture ======================== -->
+<div class="slide slide-5">
+  <h2>Project Architecture</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>model/</h3>
+      <p>Plain Java objects (POJOs): User, Hall, Event, Participant, Registration</p>
+    </div>
+    <div class="card green">
+      <h3>db/ (DAO layer)</h3>
+      <p>One class per table. All SQL queries. Prepared statements (no SQL injection).</p>
+    </div>
+    <div class="card orange">
+      <h3>service/</h3>
+      <p>Business logic: capacity check, validation before DB, QR token generation</p>
+    </div>
+    <div class="card red">
+      <h3>api/</h3>
+      <p>JSON Servlets called by Android. One servlet per resource (events, halls...)</p>
+    </div>
+    <div class="card purple">
+      <h3>web/ + JSP</h3>
+      <p>HTML interface for browser users. Calls the same service layer.</p>
+    </div>
+    <div class="card">
+      <h3>util/</h3>
+      <p>EncryptionUtil (AES), HashUtil (SHA-256), ValidationUtil, DBConnection</p>
+    </div>
+  </div>
+</div>
+
+<!-- ======================== SLIDE 6: Key Features ======================== -->
+<div class="slide slide-6">
+  <h2>Key Features Walkthrough</h2>
+  <table>
+    <tr><th>Feature</th><th>How it works</th></tr>
+    <tr><td>📋 Events list</td><td>JOIN query: events + halls + COUNT(registrations) in one SQL call</td></tr>
+    <tr><td>✅ Register to event</td><td>Capacity check → duplicate check → generate QR token → save</td></tr>
+    <tr><td>🏛️ Hall management</td><td>ADMIN can add/delete halls; events reference halls via FK</td></tr>
+    <tr><td>🔍 QR scan at entrance</td><td>Admin scans with camera → token sent to server → participant verified</td></tr>
+    <tr><td>🔐 Login</td><td>SHA-256 hash comparison, session stored server-side (HttpSession)</td></tr>
+    <tr><td>🛡️ Permissions</td><td>Every Servlet checks session role before executing the action</td></tr>
+  </table>
+</div>
+
+<!-- ======================== SLIDE 7: Security ======================== -->
+<div class="slide slide-7">
+  <h2>Security Features</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>🔐 Password Hashing</h3>
+      <p>Passwords hashed with <strong>SHA-256</strong> before storage.<br>Never stored as plain text.</p>
+    </div>
+    <div class="card green">
+      <h3>🔒 AES Encryption</h3>
+      <p>Participant <strong>email and phone</strong> encrypted before DB.<br>Decrypted only when needed.</p>
+    </div>
+    <div class="card orange">
+      <h3>🛡️ SQL Injection Prevention</h3>
+      <p>All queries use <strong>PreparedStatement</strong>.<br>User input never concatenated into SQL.</p>
+    </div>
+    <div class="card red">
+      <h3>✅ Input Validation</h3>
+      <p><strong>ValidationUtil</strong> checks email format, phone, date, capacity before every action.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ======================== SLIDE 8: Bonus Features ======================== -->
+<div class="slide slide-8">
+  <h2>Bonus Features</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>📷 Camera — QR Scanning</h3>
+      <p>
+        Admin uses the <strong>physical camera</strong> on the Android device to scan participant QR codes at the entrance.
+        Uses the <strong>ZXing</strong> barcode library.
+        This is a <strong>hardware component</strong> (סעיף 10).
+      </p>
+    </div>
+    <div class="card green">
+      <h3>🔑 QR Code Generation</h3>
+      <p>
+        On every registration, a unique <strong>UUID-based token</strong> is generated and stored.
+        The Android app renders it as a <strong>QR code bitmap</strong> using ZXing.
+        The token is validated server-side on scan.
+      </p>
+    </div>
+    <div class="card orange">
+      <h3>🔒 AES + SHA-256</h3>
+      <p>
+        Double-layer security:
+        <strong>AES encryption</strong> for personal data fields,
+        <strong>SHA-256 hashing</strong> for passwords.
+        This covers the <strong>encryption bonus</strong> (סעיף 9).
+      </p>
+    </div>
+  </div>
+  <p style="margin-top:24px; font-size:16px; color:#aaa;">
+    3 extensions implemented → requirement was 2 ✓
+  </p>
+</div>
+
+<!-- ======================== SLIDE 9: Test Accounts ======================== -->
+<div class="slide slide-9" style="background: linear-gradient(135deg, #1a1a2e, #16213e);">
+  <h2>Test Accounts (13 Users)</h2>
+  <div style="display:flex; gap:24px; margin-top:16px;">
+    <div style="flex:1;">
+      <h3 style="margin-bottom:12px;">Admin</h3>
+      <table>
+        <tr><th>Username</th><th>Password</th></tr>
+        <tr><td>admin</td><td>Admin1234</td></tr>
+      </table>
+      <h3 style="margin-top:20px; margin-bottom:12px;">Users</h3>
+      <table>
+        <tr><th>Username</th><th>Password</th></tr>
+        <tr><td>yossi</td><td>Yossi1234</td></tr>
+        <tr><td>dana</td><td>Dana1234</td></tr>
+        <tr><td>moshe</td><td>Moshe1234</td></tr>
+        <tr><td>sarah</td><td>Sarah1234</td></tr>
+        <tr><td>david</td><td>David1234</td></tr>
+        <tr><td>rachel</td><td>Rachel1234</td></tr>
+        <tr><td>avi</td><td>Avi1234</td></tr>
+        <tr><td>tamar</td><td>Tamar1234</td></tr>
+        <tr><td>noam</td><td>Noam1234</td></tr>
+        <tr><td>maya</td><td>Maya1234</td></tr>
+        <tr><td>itay</td><td>Itay1234</td></tr>
+        <tr><td>noa</td><td>Noa1234</td></tr>
+      </table>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; justify-content:center; gap:16px;">
+      <div class="card">
+        <h3>Backend URL</h3>
+        <p>http://localhost:<strong>8888</strong>/EventManagement</p>
+      </div>
+      <div class="card green">
+        <h3>Android emulator</h3>
+        <p>Connects via <strong>10.0.2.2:8888</strong><br>(emulator alias for localhost)</p>
+      </div>
+      <div class="card orange">
+        <h3>Setup</h3>
+        <p>Run <code>mysql -u root -p &lt; db/schema.sql</code><br>then <code>mvn tomcat7:run</code></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ======================== SLIDE 10: Reflection ======================== -->
+<div class="slide" style="background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);">
+  <h2>Personal Reflection</h2>
+  <ul>
+    <li>Learned how to design a <strong>normalized relational database</strong> from scratch</li>
+    <li>Understood the importance of <strong>layered architecture</strong> (Model → DAO → Service → Controller)</li>
+    <li>Implemented real security: <strong>encryption, hashing, and SQL injection prevention</strong></li>
+    <li>Built the same backend serving <strong>two completely different clients</strong> (Web + Android)</li>
+    <li>Discovered that <strong>the QR camera integration</strong> was the most challenging and most exciting part</li>
+    <li>Learned to <strong>debug network calls</strong> between the Android emulator and the local server</li>
+  </ul>
+  <p style="margin-top:32px; font-size:16px;">
+    <strong>What I would improve:</strong> add HTTPS, use a real server instead of localhost,
+    add push notifications for upcoming events.
+  </p>
+</div>
+
+<!-- ======================== Navigation ======================== -->
+<div class="nav">
+  <button onclick="prevSlide()">← Prev</button>
+  <span id="slideCounter">1 / 9</span>
+  <button onclick="nextSlide()">Next →</button>
+</div>
+
+<script>
+  const slides = document.querySelectorAll('.slide');
+  let current = 0;
+
+  function showSlide(n) {
+    slides[current].classList.remove('active');
+    current = (n + slides.length) % slides.length;
+    slides[current].classList.add('active');
+    document.getElementById('slideCounter').textContent =
+      (current + 1) + ' / ' + slides.length;
+  }
+
+  function nextSlide() { showSlide(current + 1); }
+  function prevSlide()  { showSlide(current - 1); }
+
+  // Keyboard navigation
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'ArrowRight' || e.key === 'ArrowDown') nextSlide();
+    if (e.key === 'ArrowLeft'  || e.key === 'ArrowUp')   prevSlide();
+  });
+</script>
+
+</body>
+</html>

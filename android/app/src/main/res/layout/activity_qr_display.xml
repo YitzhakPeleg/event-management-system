@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- QR code display screen — shown after successful registration -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1a1a2e"
+    android:gravity="center">
+
+    <!-- Back button (top left) -->
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:text="← Back"
+        android:textSize="12sp"
+        android:backgroundTint="#7F8C8D"
+        android:layout_gravity="start"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Checkmark icon -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="✅"
+        android:textSize="48sp"
+        android:layout_marginBottom="12dp" />
+
+    <!-- "Your ticket for:" label -->
+    <TextView
+        android:id="@+id/tvEventTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- QR code image -->
+    <ImageView
+        android:id="@+id/ivQRCode"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:background="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="QR Code" />
+
+    <!-- Token text (for manual entry if needed) -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show this QR code at the event entrance"
+        android:textSize="13sp"
+        android:textColor="#AAAAAA"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvToken"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:textColor="#666666"
+        android:gravity="center"
+        android:fontFamily="monospace"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp" />
+
+</LinearLayout>

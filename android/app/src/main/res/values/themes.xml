@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base theme: no ActionBar (we draw our own top bars in each layout) -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#2C3E50</item>
+        <item name="colorPrimaryDark">#1a252f</item>
+        <item name="colorAccent">#2980B9</item>
+        <item name="android:windowBackground">#F4F6F9</item>
+    </style>
+</resources>

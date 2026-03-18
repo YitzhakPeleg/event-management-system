@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Internet permission: required for API calls to the backend -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Camera permission: required for QR code scanning -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Event Management"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <!-- usesCleartextTraffic=true allows HTTP (not HTTPS) for local dev server -->
+
+        <!-- Login is the first screen shown -->
+        <activity android:name=".ui.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ui.EventListActivity"   android:exported="false" />
+        <activity android:name=".ui.EventDetailActivity" android:exported="false" />
+        <activity android:name=".ui.QRDisplayActivity"   android:exported="false" />
+        <activity android:name=".ui.QRScanActivity"      android:exported="false" />
+
+    </application>
+
+</manifest>
