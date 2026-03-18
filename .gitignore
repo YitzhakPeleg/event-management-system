@@ -1,0 +1,23 @@
+# Gradle
+android/.gradle/
+android/build/
+android/app/build/
+
+# Maven
+backend/target/
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Android local config
+android/local.properties
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
